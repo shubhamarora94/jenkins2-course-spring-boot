@@ -10,13 +10,13 @@
   <servers>
     <server>
         <id>nexus-snapshots</id>
-        <username>svc-de-xtech</username>
-        <password>jan_2019</password>
+        <username>admin</username>
+        <password>admin123</password>
     </server>
     <server>
         <id>nexus-releases</id>
-        <username>svc-de-xtech</username>
-        <password>jan_2019</password>
+        <username>admin</username>
+        <password>admin123</password>
 	</server>
   </servers>
   
@@ -25,7 +25,7 @@
   <repositories>
 	<repository>
 		<id>nexus-snapshots</id>
-		<url>https://integration.pl.s2-eu.capgemini.com/nexus3/repository/maven-snapshots/</url>
+		<url>http://localhost:8081/repository/maven-snapshots/</url>
 		<snapshots>
 		  <enabled>true</enabled>
         </snapshots>
@@ -33,7 +33,7 @@
 		
 	<repository>
 		<id>nexus-releases</id>
-		<url>https://integration.pl.s2-eu.capgemini.com/nexus3/repository/maven-releases/</url>
+		<url>http://localhost:8081/repository/maven-releases/</url>
 		<releases>
           <enabled>true</enabled>
         </releases>
