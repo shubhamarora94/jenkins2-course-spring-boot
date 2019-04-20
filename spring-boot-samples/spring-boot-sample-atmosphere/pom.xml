@@ -67,6 +67,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-websocket</artifactId>
+			<version>5.1.6.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
